@@ -10,6 +10,6 @@
     :dev {
       :dependencies [
         [midje "1.4.0"]
-        [cljsbuild "0.4.0"]]
+        [slagyr/cljsbuild "0.4.0"]]
       :plugins [[lein-midje "2.0.4"]]}}
   :eval-in-leiningen true)

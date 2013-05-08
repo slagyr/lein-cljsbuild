@@ -4,10 +4,10 @@
     [clojure.string :as string]))
 
 (def cljsbuild-version "0.4.0")
-(def required-clojure-version "1.4.0")
+(def required-clojure-version "1.5.1")
 
 (def cljsbuild-dependencies
-  [['cljsbuild cljsbuild-version]
+  [['slagyr/cljsbuild cljsbuild-version]
    ['org.clojure/clojure required-clojure-version]])
 
 (defn- numeric-version [v]
